@@ -1,0 +1,10 @@
+import pandas as pd
+df = pd.read_csv("/Users/sarthakdewangan/Documents/python/Iris.csv")
+print(df)
+print("First 10 : ")
+print(df.head(10))
+print("Last 10 :")
+print(df.tail(10))
+print(df.describe())
+print("DataFrame_SHape(Rows,Columns) :",df.shape)
+print("Coloumns Names are : ",df.columns)
